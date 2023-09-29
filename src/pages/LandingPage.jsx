@@ -4,7 +4,7 @@ import Features from '../components/Features';
 import Working from '../components/Working';
 import Footer from '../components/Footer';
 
-export default function Homepage() {
+export default function LandingPage() {
   return (
     <div>
       <Navbar />

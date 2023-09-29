@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import './index.css';
-import Homepage from './pages/Homepage';
+import LandingPage from './pages/LandingPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Homepage />,
+    element: <LandingPage />,
   },
 ]);
 
