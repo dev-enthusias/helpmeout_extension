@@ -2,7 +2,7 @@ import logo from '../assets/logo.svg';
 
 export default function Navbar() {
   return (
-    <nav className='py-3 px-[6.25rem] flex justify-between items-center bg-white'>
+    <nav className='py-3 lg:px-[6.25rem] px-10 flex flex-col lg:flex-row justify-between items-center bg-white'>
       <div className='flex items-center gap-2 p-2.5 font-inter font-bold leading-[1.21rem] text-[#100A42]'>
         <img src={logo} alt='Logo' />
         <span>HelpMeOut</span>

@@ -1,11 +1,13 @@
+import card from '../assets/card.png';
+
 export default function Working() {
   return (
-    <section className='bg-white py-[6.4375rem] px-[6.25rem] text-center'>
+    <section className='bg-white lg:py-[6.4375rem] lg:px-[6.25rem] text-center p-10'>
       <h2 className='text-[#141414] font-sora font-bold text-[2.5rem] leading-[3.15rem] mb-[3.6875rem]'>
         How it works
       </h2>
 
-      <section className='flex gap-[5.1875rem]'>
+      <section className='flex flex-col lg:flex-row gap-[5.1875rem]'>
         <article className='flex flex-col items-center'>
           <div className='w-[4.25rem] h-[4.25rem] bg-[#120B48] rounded-full text-white font-inter font-bold text-[2rem] leading-[2.420625rem] py-[0.875rem] px-[1.625rem] mb-8'>
             1
@@ -18,7 +20,7 @@ export default function Working() {
             part of your screen to capture and who you want to send it to.
           </p>
 
-          <img src={''} alt='A sample of how the extension works' />
+          <img src={card} alt='A sample of how the extension works' />
         </article>
         <article className='flex flex-col items-center'>
           <div className='w-[4.25rem] h-[4.25rem] bg-[#120B48] rounded-full text-white font-inter font-bold text-[2rem] leading-[2.420625rem] py-[0.875rem] px-[1.625rem] mb-8'>
@@ -32,7 +34,7 @@ export default function Working() {
             audience via email or copy the link to send via any platform.
           </p>
 
-          <img src={''} alt='A sample of how the extension works' />
+          <img src={card} alt='A sample of how the extension works' />
         </article>
         <article className='flex flex-col items-center'>
           <div className='w-[4.25rem] h-[4.25rem] bg-[#120B48] rounded-full text-white font-inter font-bold text-[2rem] leading-[2.420625rem] py-[0.875rem] px-[1.625rem] mb-8'>
@@ -46,7 +48,7 @@ export default function Working() {
             link, with our user-friendly interface suitable for everyone.
           </p>
 
-          <img src={''} alt='A sample of how the extension works' />
+          <img src={card} alt='A sample of how the extension works' />
         </article>
       </section>
     </section>

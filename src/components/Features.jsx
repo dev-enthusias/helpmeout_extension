@@ -5,7 +5,7 @@ import send from '../assets/send.svg';
 
 export default function Features() {
   return (
-    <section className='bg-white px-[6.25rem] py-20 mb-[4.375rem]'>
+    <section className='bg-white lg:px-[6.25rem] p-10 lg:py-20 mb-[4.375rem]'>
       <h2 className='text-[#141414] font-sora font-bold text-[2.5rem] leading-[3.15rem] text-center mb-2'>
         Features
       </h2>
@@ -13,8 +13,8 @@ export default function Features() {
         Key Highlights of Our Extension
       </p>
 
-      <div className='flex justify-between items-center'>
-        <section className='w-[34.25rem] flex flex-col gap-12'>
+      <div className='flex flex-col lg:flex-row gap-y-10 justify-between items-center '>
+        <section className='w-full lg:w-[34.25rem] flex flex-col gap-12'>
           <article className='flex gap-4 items-start'>
             <div className='bg-[#413C6D] p-2 rounded-full w-12'>
               <img src={record} alt='A record icon' />
